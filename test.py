@@ -7838,7 +7838,7 @@ async def battleship(ctx,arg1: discord.Member = None):
                     elif msg1 in bpowerup and msg1=='ufo':
                         choice=random.choice([44,45,54,55])
                         action='ufo'
-                        await msg.add_reaction('\N{FLYING SAUCER}')
+                        await msg.add_reaction('🛸')
                         break
                     elif 'nukeplane' in bpowerup and len(msg1)==12 and msg1[:9]=='nukeplane' and msg1[9]==' ' and msg1[10].isalpha()==True and (msg1[10] in ['b','c','d','e','f','g','h','i']) and msg1[11].isnumeric()==True and (int(msg1[11]) in range(2,10)):
                         choice = 10 * spot[msg1[10]] + (int(msg1[11]) - 1)
