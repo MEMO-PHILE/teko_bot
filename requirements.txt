@@ -1,5 +1,2 @@
 discord.py
 asyncio
-math.py
-random.py
-time.py
