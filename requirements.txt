@@ -1,5 +1,5 @@
 discord.py
 asyncio
-math
-random
-time
+math.py
+random.py
+time.py
